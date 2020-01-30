@@ -211,7 +211,7 @@ def drawWorld(layer1, layer2 = [], layer3 = []):
     xMax = max([point[0] for point in combined])
     yMin = min([point[1] for point in combined])
     yMax = max([point[1] for point in combined])
-    print(str(xMin) + " " + str(xMax) + " " + str(yMin) + " " + str(yMax))
+    # print(str(xMin) + " " + str(xMax) + " " + str(yMin) + " " + str(yMax)) # debug
 
     for i in range(xMin - 2, xMax + 3):
         for j in range(yMin - 2, yMax + 3):
